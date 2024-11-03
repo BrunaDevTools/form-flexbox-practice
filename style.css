@@ -1,0 +1,131 @@
+html {
+    font-size: 10px;
+}
+* {
+    box-sizing: border-box;  
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background: url(img/background.jpg) no-repeat;
+    background-size: cover;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+main {
+    margin: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 35px 0px rgba(128, 128, 128, 0.822);
+    display: flex;
+    flex-direction: column;
+}
+
+main .header {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    justify-content: space-between;
+}
+.header .logo img{
+    width: 5rem;
+    height: 5rem;
+    padding: 5px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+}
+
+.header .logo h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.header .logo span {
+    color: red;
+    font-size: 2.5rem;
+}
+
+main .header a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 0.5;
+}
+
+main h1 {
+    font-size: 9rem;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.signWithGoogle {
+    border: 2px solid rgb(67, 83, 253);
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(67, 83, 253);
+    padding: 20px 70px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+form {
+    margin-top: 40px;
+    font-size: 1.9rem;   
+}
+
+form label {
+    color: rgb(116, 117, 117);
+}
+
+form .password {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+form .password a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+input {
+    border: 2px solid rgb(94, 140, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0 30px;
+    width: 80%;
+    font-size: 1.5rem;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+
+form button {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    padding: 13px 30px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 0;
+    align-self: center;
+}
